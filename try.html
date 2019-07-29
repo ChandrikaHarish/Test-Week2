@@ -1,0 +1,58 @@
+<!-- background image
+grid 3 by 3 
+grid cells like elllipse/oval
+on mouseover over any grid it should disappear"""-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid example</title>
+        <style>
+            body {
+                    background-image: url("img6.jpg");
+                    background-color: #cccccc;
+                }
+
+                .oval {
+                    display: grid;
+                    grid-template-columns: auto auto auto;
+                   grid-gap:10px;
+                    padding: 10px;
+}
+
+.oval1 {
+  
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 90px;
+  
+  background-color: #555;
+    border-radius: 100%;
+  
+}
+
+#oval div:hover{
+  visibility:hidden;
+}
+                        
+}
+            
+        </style>
+        <script>
+            
+        </script>
+    </head>
+    <body>
+            <div class="oval" id="oval">
+                <div class="oval1"></div>
+                <div class="oval1"></div>
+                <div class="oval1"></div>
+                <div class="oval1"></div>
+                <div class="oval1"></div>
+                <div class="oval1"></div>
+                <div class="oval1"></div>
+                <div class="oval1"></div>
+                <div class="oval1"></div>
+            </div>
+
+    </body>
+</html>
